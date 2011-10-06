@@ -20,6 +20,6 @@ To start adding posts to your blog, open /login.php in your browser.
 
 Dependencies
 --------------------
-Twig v1.3.0-RC1
-RedBeanPHP v2.01
-php-markdown v1.2.2
+- Twig v1.3.0-RC1
+- RedBeanPHP v2.01
+- php-markdown v1.2.2
