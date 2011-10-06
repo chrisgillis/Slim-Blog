@@ -1,0 +1,151 @@
+* { margin: 0; padding: 0; font-size: 12px;}
+body { font-size: 12px; background: #fafafa;}
+
+#container {
+	background: #fff;
+	padding: 20px 40px 40px 40px;
+	width: 45%;
+	margin-left: 10%;
+	margin-top: 5%;
+	border-top: 5px solid #f0f0f0;
+}
+
+#header h1, #header h1 a {
+	font-size:50px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-family: 'Nothing You Could Do', serif;
+	text-decoration: none;
+	color: #444;
+}
+#header h2 {
+	font-size: 16px;
+	margin-bottom: 40px;
+	font-style: italic;
+	font-family: 'Nothing You Could Do', serif;
+	color: #444;
+}
+
+article {
+	margin-bottom: 40px;
+	font-size: 14px;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 40px;
+}
+
+article p {
+	font-size: 14px;
+	line-height: 150%;
+	margin-bottom: 15px;
+	font-family: 'Lato', serif;
+	color: #444;
+}
+
+article header {
+	margin-bottom: 20px;
+}
+article header h1 {
+	font-size: 32px;
+	margin-bottom: 5px;
+}
+
+article span.date {
+	font-family: 'Open Sans Condensed', serif;
+}
+article h1, h2, h3 {
+	margin-bottom: .5em;
+	font-family: 'Open Sans Condensed', serif;
+	color: #444;
+}
+article h1 {
+	font-size: 28px;
+}
+article h2 {
+	font-size: 22px;
+}
+article h3 {
+	font-size: 18px;
+}
+article blockquote {
+	background: #fafafa;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-bottom: 2px solid #f0f0f0;
+	border-right: 2px solid #f0f0f0;
+	color: #444;
+}
+
+article code {
+	background: #f0f0f0;
+}
+
+article a {
+	font-family: 'Lato', serif;
+}
+div.post-controls {
+	display: block;
+	overflow: hidden;
+}
+a.next-post {
+	float: right;
+	display: inline-block;
+	background: #666;
+	color: #fff;
+	padding: 5px 10px;
+	text-decoration: none;
+	font-family: 'Lato', serif;
+	border-radius: 5px;
+}
+a.next-post:hover {
+	background: #444;
+}
+
+div#new-post {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	background: #fff;
+	border-top: 2px solid #ccc;
+	border-left: 2px solid #ccc;
+	padding: 20px;
+	width: 30%;
+}
+div#new-post input[type=text] {
+	width: 99%;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	margin-bottom: 10px;
+	border: 0;
+	background: #f0f0f0;
+}
+div#new-post textarea {
+	width: 99%;
+	height: 300px;
+	margin-bottom: 10px;
+	border: 0;
+	background: #f0f0f0;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+}
+
+form.postedit input[type=text] {
+	width: 99%;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	margin-bottom: 10px;
+	border: 0;
+	background: #f0f0f0;
+}
+form.postedit textarea {
+	width: 99%;
+	height: 300px;
+	margin-bottom: 10px;
+	border: 0;
+	background: #f0f0f0;
+	font-family: Arial, sans-serif;
+	padding: 5px;
+}
